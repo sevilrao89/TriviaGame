@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var timeLeft =10;
+	var timeLeft = 30;
 	$("#timerem").html(timeLeft)
 	$("#startbutton").on("click", function(ev){
 		console.log("clickedonbutton")
